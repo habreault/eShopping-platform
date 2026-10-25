@@ -18,6 +18,7 @@ Languages:
 
 Design:
     the UI design was built on Figma and translated into our coded files after deciding on a webpage layout.
+    [Figma UI design](https://www.figma.com/design/O17IRjnLFpuI3aRzZYNW5a/Product-page-design--Community-?node-id=0-1&p=f&t=PJOpQNJD2gzNdShP-0) 
 
 Environment:
     We used a few different enviroments to develop this first iteration such as: VS Code, and Live servers. We used VS Code as our main code editor and the Live Server to locally preview our saves on the files.
