@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #34c759;
+  outline-offset: 4px;
+}
+
+.page {
+  max-width: 1516px;
+  min-height: 817px;
+  margin: 0 auto;
+  padding: 40px 46px 74px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 105px;
+  padding-right: 73px;
+}
+
+.brand {
+  align-self: flex-start;
+  color: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+h1 {
+  position: absolute;
+  top: 13px;
+  left: 200px;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 92px;
+}
+
+.account-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.account-button {
+  width: 157px;
+  height: 37px;
+  border-radius: 23px;
+  background: #f7f7f7;
+  color: #161616;
+  font-size: 16px;
+}
+
+.account-button.primary {
+  background: #34c759;
+  color: #fff;
+}
+
+.product-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px; 
+}
+
+.product-card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
