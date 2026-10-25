@@ -44,3 +44,28 @@ function showProduct(product) {
 }
 
 products.forEach(showProduct);
+
+// setting up the search bar. processes input when 
+// enter key is pressed and redirects to that page
+const searchForm = document.querySelector('.search-form');
+const searchInput = document.getElementById('site-search');
+
+searchForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const query = searchInput.value.trim();
+    if(query) {
+        window.location.href = `/search?q=${encodeURIComponent(query)}`;
+    }
+});
+
+//sign in and create account actions
+const signIn = document.getElementById('sign-in');
+const createAccount = document.getElementById('create-account');
+
+signIn.addEventListener('click', () => {
+  //will redirect to sign in page 
+}); 
+
+createAccount.addEventListener('click', () => {
+  //will redirect to create account page 
+});
