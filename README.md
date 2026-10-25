@@ -8,6 +8,7 @@ For this prototype (iteration 1), we will be running this on a Live Server, wher
 
 ## Architecture diagram:
 ![Architecture Diagram](docs/architecture-diagram.png)
+[Link to Architecture Diagram](https://drive.google.com/file/d/1hDKMWY_BMAV58rRlNNusPq_NC8KRzsF3/view?usp=sharing)
 ## Development tools:
 We got all of our picture for the products on Unsplash, as well as using Git and GitHub/GitHub desktop to share our team's repository and commiting, pushing, and pulling.
 
