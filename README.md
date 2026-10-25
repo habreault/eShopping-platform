@@ -7,7 +7,7 @@ eShopping Platform, called Whole Eats Shopping, will be an online web-based ecom
 For this prototype (iteration 1), we will be running this on a Live Server, where only each of us (teammates) can run a local copy of the same code and files, through our GitHub repository. We chose to do this for this iteration because this is our :first draft" and the design is still in some progress, or will require some touch ups. This is also a more instant way for us to update and deploy our UI for now, though we do plan on hosting through the cloud in later iterations.
 
 ## Architecture diagram:
-
+![Architecture Diagram](docs/architecture-diagram.png)
 ## Development tools:
 We got all of our picture for the products on Unsplash, as well as using Git and GitHub/GitHub desktop to share our team's repository and commiting, pushing, and pulling.
 
@@ -29,4 +29,4 @@ Environment:
 
     Kylie:
 
-    Joe:
+    Joe:I set up the initial project structure and pushed it to GitHub which allowed for a collaborative workflow. I had to some research and see what folder structure would work best for the project. Considering the nature of the project, went with client and eventual server folder structure. Only the folders and files needed for the current prototype were created. One challenge I had was figuring out the proper Git commands when it comes to the collaborative aspects of Git/GitHub but after searching online, i figured out the process and workflow.
