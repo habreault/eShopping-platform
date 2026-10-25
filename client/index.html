@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eShopping Website</title>
+    <!-- adding a font style from google fonts, we chose roboto condensed -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <!-- linking the html to style.css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="page">
+        <!-- formatting the header -->
         <header class="header">
             <a class="brand" href="./">Whole Eats Shopping</a>
 
             <h1>Home Page</h1>
-
+            <!-- adding the sign in and create account bottuns -->
             <nav class="account-actions" aria-label="Account">
-                <button class="account-button primary" type="button">
+                <button id="sign-in" class="account-button primary" type="button">
                   Sign in
                 </button>
-                <button class="account-button" type="button">
+                <button id="create-account" class="account-button" type="button">
                   Create Account
                 </button>
             </nav>
         </header>
+        <!-- the search bar and capturing input -->
+        <form action="/search" method="GET" class="search-form">
+            <input type="search" id="site-search" name="q" placeholder="Search produce..." aria-label="Search produce..." required>
+        </form>
+
         <main>
+            <!-- listing product, showing image, cost and certain descriptions -->
             <div class="product-grid" id="product-grid"></div>
         </main>
     </div>
