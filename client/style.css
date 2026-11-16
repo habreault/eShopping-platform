@@ -1,3 +1,5 @@
+/* setting the style settings for all html files */
+/* contributors: Hailey B. and Fatema Y. */
 * {
   box-sizing: border-box;
 }
@@ -54,9 +56,9 @@ input:focus-visible {
 }
 
 h1 {
-  position: absolute;
+  /* position: absolute; */
   top: 13px;
-  left: 200px;
+  left: 15%;
   margin: 0;
   font-size: 60px;
   font-weight: 500;
@@ -178,4 +180,79 @@ h1 {
   background: #000;
   color: #fff;
   font-size: 12px;
+}
+
+/* css styles specific to SIGN IN and CREATE ACCOUNT */
+
+/* formatting the input boxes */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  margin: 30px auto 0 auto; 
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input-container input {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+/* formatting the header */
+.narbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* aligning relative positions of h1 and input boxes */
+.special-h1 {
+  position: static; 
+  top: 200px;
+  left: 15%;
+  right: 15%;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 92px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.account-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+
+/* css styles specific to web page 4 */
+/* process account/redirecting page/loading page */
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 200px;
+  font-size: xx-large;
+
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 0;
+}
+
+.account-retrieval {
+  gap: 10px;
 }

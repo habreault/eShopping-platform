@@ -1,6 +1,7 @@
-// app.js
-// Builds the product cards and displays them on the page.
+//this .js file adds action to features of the html web page
+//contributors: Hailey B. and Fatema Y.
 
+// Builds the product cards and displays them on the page.
 const products = [
   { id: 1, name: "Broccoli", price: 1.99, featured: true,  image: "images/broccoli.jpg" },
   { id: 2, name: "Apples",   price: 2.99, featured: true,  image: "images/apples.jpg" },
@@ -69,3 +70,12 @@ signIn.addEventListener('click', () => {
 createAccount.addEventListener('click', () => {
   //will redirect to create account page 
 });
+
+//functions relating to the sign-in, create account pages 
+//showing that the program is in the process of account retrieval
+function showLoading() {
+  const loadingButton = document.getElementById("submit"); 
+  loadingButton.textContent = "loading...";
+  loadingButton.disabled = true; 
+
+}

@@ -7,6 +7,26 @@ Our project is a shopping website that allows users to manage a shopping cart an
 ## Database:
 The data that the project will store on a secondary storage includes user and admin information, payment information, shopper addresses, products and their details, product quantities, shopping carts, orders and favorite products. This data will be used to manage purchases, process deliveries and payments, take care of inventory management, manage customer and admin accounts and keep track of shopping cart activity
 
+## Tables and fields:
+Table                                                    |   Fields
+---------------------------------------------------------------------------------------------------------------------------------
+Category                                                 |   category_id (PK), category_name
+Item                                                     |   item_id(PK), sku_num, item_name, expiration, category_id(FK)
+Favorite_Products                                        |   shopper_id(PK,FK),item_id(PK,FK)
+Cart                                                     |   cart_id(PK), shopper_id(FK)
+Cart_Item                                                |   cart_id(PK, FK), item_id(PK, FK), quantity
+Order                                                    |   order_id(PK), shopper_id(FK), card_id(FK), total, delivery
+Order_Item                                               |   order_id(PK,FK), item_id(PK,FK), quantity, purchase_price
+Shopper                                                  |   shopper_id(PK,FK), address_id(FK)
+User                                                     |   user_id(PK), password, phone_number, first_name, last_name, 
+                                                         |   email_address, password_hash
+Admin                                                    |   admin_id(PK, FK)
+Address                                                  |   address_id(PK), shopper_id(FK), city, street, zip_code, state
+Card                                                     |   card_id(PK), shopper_id(FK), card_dig, type
+
+
+
+
 ## Represented in NoSQL:
 If we chose to use No_SQL, we could use a database such as MongoDB to store our data in a document database. For example, one object we could create would be the shopping cart. Each product in the shopping cart would also be an object. This would allow us to create one document for a cart, which can contain multiple products. The keys could be int item_id, string item_name, int quantity and double cost. An example of values for these keys for the item would be 123, “Apple”, 5, and 3.75. 
 
