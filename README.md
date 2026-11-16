@@ -38,6 +38,7 @@ Hailey: I helped out my team with examining the ER diagram and the SQL files tha
 
 Fatema:  
 
-Kylie:
+Kylie: I started by answering the questions about the database on the google doc. I also used SQLite to help start with creating the tables. The tables were based off of the entities from the ER diagram, and I provided all of the attributes, primary keys and foreign keys within the tables. I then created statements that would insert data within these tables and added select statements to retrieve specific data from the tables. My team members then built upon this code, to finish creating the database. At first, I struggled understanding how to code the relationships between the tables, so this process helped me learn how SQL works and gave me a better understanding on how data will be organized and stored. It also made me understand the relationships between these entities, along with how to connect them using the foreign keys and primary keys. Now I understand how these tables are able to relate to other tables. We decided to use only SQL in this prototype, since everything in the ER diagram worked with clearly structured tables we could create in SQL. 
+
     
 Joe:
