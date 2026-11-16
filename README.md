@@ -33,7 +33,7 @@ If we chose to use No_SQL, we could use a database such as MongoDB to store our 
 ## Summary:
 For our database project, we chose SQLite, as it is a serverless DBMS that has the ability to run within applications. We decided on this because we wanted to start with a smaller database that would specifically display our category, cart, item, and cart_item tables. We wanted to make this iteration more of a demonstration of what our database will hold by presenting these 4 tables. With this iteration it was a bit difficult to work with our team since we were not able to meet in person and we communicating through Discord, however we were all able to bring up thoughtful pieces to the project and collaborate effectively to ensure that we had the same idea of what we wanted to do for this iteration.
 
-## INdividual Reflection:
+## Individual Reflection:
 Hailey: 
 
 Fatema:  
@@ -41,3 +41,4 @@ Fatema:
 Kylie:
     
 Joe:
+I created an initial ER diagram for our application using drawio.The class diagram served as a guide for the attributes. I utilized a helpful article about converting a class diagram to an ER diagram. Careful consideration had to be taken for the cardinality as well. The ER diagram was then improved upon suggestions and review from my team. I also contributed by writing SQL to add a database component to our project. I utilized an online playground to quickly test out SQL statements and created some tables needed for this iteration of the project as well as some sample queries. The tutorials point and geek for geek websites helped with understanding SQLite syntax. Other team members eventually expanded upon the SQL and created the rest of the tables and more queries. I eventually added some more SQL and separated them into different tabs for better organization. The process of using an online playground environment helped me quickly write and test SQL especially by separating the SQL into different tabs that allowed for easier testing of the SQL statements.
